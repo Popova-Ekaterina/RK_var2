@@ -10,6 +10,7 @@
 body
 {
     background:#F6F6F6;;
+    font-family: Rubik;
 }
 
 .logo
@@ -78,3 +79,115 @@ ul.My_menu
 {
     text-decoration-line:underline
 }
+
+#begin {
+    width: 600px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.title_http 
+{
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 50px;
+    
+    color: #0B132A;
+    
+}
+
+#example_pic
+{
+    width: 600px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.title_https 
+{
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 50px;
+    
+    color: #0B132A;
+    
+}
+
+.inf_http
+{   
+    box-sizing: border-box;
+
+    margin: 0px;
+    min-width: 0px;
+
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+
+    text-align: center;
+
+    color: #4F5665;
+}
+
+.ul_http 
+{
+    
+    box-sizing: border-box;
+
+    margin: 0px;
+    min-width: 0px;
+
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+
+    text-align: center;
+
+    color: #4F5665;
+
+}
+
