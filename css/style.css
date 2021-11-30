@@ -1,0 +1,80 @@
+/* :root находит корневой элемент дерева документа */
+:root
+{
+  --btn-text-color: #FFFFFF;
+  --btn-color-bg: #F53838;
+}
+
+
+
+body
+{
+    background:#F6F6F6;;
+}
+
+.logo
+{
+    position: relative;
+    width: 1050px;
+    height: 50px;
+    left: 121.3px;
+    top: 55px;
+}
+
+.Menu
+{
+    position: relative;
+    top: -30px;
+    width: 46px;
+    left: 400px;
+    
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    
+    font-size: 16px;
+    line-height: 19px;
+}
+
+ul.My_menu
+{
+
+    display:inline-flex; /* расположение в ряд, а не столбцом */
+}
+
+
+  .My_menu li 
+
+{
+    font-size: 16px ;
+
+    list-style: none;   
+}
+  
+  .My_menu li a
+{
+    text-decoration: none;
+    margin: 30px;
+    color: #4F5665;
+}
+
+.li_menu
+{
+    list-style-type:none;
+    font-size: 16px ;
+
+ 
+}
+
+.menu_link
+{
+    margin: 30px;
+    color: #4F5665;
+    text-decoration-line: none;
+}
+
+.menu_link:hover
+
+{
+    text-decoration-line:underline
+}
